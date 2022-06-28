@@ -6,10 +6,6 @@
 Linux PC mitigations
 ================================================
 
-All `Mitigations`_.
-
-.. _Mitigations: https://tymyrddin.github.io/mitigations/
-
 .. toctree::
    :glob:
    :maxdepth: 1
@@ -90,3 +86,8 @@ All `Mitigations`_.
 
    docs/malware/README.md
    docs/malware/*
+
+.. toctree::
+   :caption: All mitigations
+
+   Overview <https://tymyrddin.github.io/mitigations/>
