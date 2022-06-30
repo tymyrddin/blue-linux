@@ -1,6 +1,6 @@
 # Camera/Webcam 
 
-Adversaries can try to gain access with remote-access Trojans (RATs) – malware that gives the adversary administrative control over its targeted computers, including, in this case, the ability to remotely control webcams. It is an invisibly-installed malware program spread via email attachment or by [tricking victims into visiting a malicious site](https://tymyrddin.github.io/attack-trees/docs/social-engineering/Phishing.html).
+Adversaries can try to gain access with remote-access Trojans (RATs) – malware that gives the adversary administrative control over its targeted computers, including, in this case, the ability to remotely control webcams. It is an invisibly-installed malware program spread via email attachment or by [tricking victims into visiting a malicious site](attack-trees:docs/social-engineering/Phishing).
 
 Tape the camera. It may even be possible to turn it off in BIOS (depending on your version). Better yet, if you know what driver module is controlling the webcam, you can disable the driver with `modprobe -r`.
 
