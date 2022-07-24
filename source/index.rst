@@ -88,6 +88,6 @@ Linux PC mitigations
    docs/malware/*
 
 .. toctree::
-   :caption: All mitigations
+   :caption: Links
 
-   Overview <https://tymyrddin.github.io/mitigations/>
+   All mitigations <https://tymyrddin.github.io/mitigations/>
