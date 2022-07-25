@@ -1,4 +1,4 @@
-# Camera/Webcam 
+# Turn on/off camera/webcam 
 
 Adversaries can try to gain access with remote-access Trojans (RATs) – malware that gives the adversary administrative control over its targeted computers, including, in this case, the ability to remotely control webcams. It is an invisibly-installed malware program spread via email attachment or by [tricking victims into visiting a malicious site](attack-trees:docs/social-engineering/Phishing).
 

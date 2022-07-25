@@ -1,4 +1,4 @@
-# Firewire and thunderbolt
+# Blacklist firewire and thunderbolt
 
 A direct memory access (DMA) attack is a type of side channel attack in which an adversary penetrates a device by 
 exploiting the presence of high-speed expansion ports that permit Direct Memory Access. Firewire, thunderbolt and 

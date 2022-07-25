@@ -1,4 +1,4 @@
-# Microphone
+# Turn on/off microphone
 
 Use the alsa control panel for muting the microphone:
 
