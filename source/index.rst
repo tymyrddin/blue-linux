@@ -38,6 +38,7 @@ Linux PC mitigations
    docs/guards/netfilter-and-iptables.md
    docs/guards/nftables.md
    docs/guards/gufw-and-ufw.md
+   docs/guards/ids.md
    docs/guards/*
 
 .. toctree::

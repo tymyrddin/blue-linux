@@ -22,7 +22,7 @@ that are most likely to cause issues for a beginning user.
 
 ## Choosing a HIDS for a Linux PC
 
-Most of the HIDS tools for Linux are File Integrity Agents (FIAs) and use Error Detection algorithms. A FIA monitors 
+Most of the [HIDS tools for Linux](ids.md) are File Integrity Agents (FIAs) and use Error Detection algorithms. A FIA monitors 
 the integrity and state of the files and objects on a machine. It creates a hash of all files to be monitored. 
 That snapshot is periodically checked against the current hash of the files. If it detects changes to those files, then 
 it alerts the administrator that an unauthorised access or change has taken place. 
