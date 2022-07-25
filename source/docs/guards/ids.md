@@ -1,17 +1,15 @@
 # Linux intrusion detection systems
 
-Host intrusion detection systems:
+## Host intrusion detection systems
 
-* CrowdStrike Falcon
-* EventLog Analyzer
+* Aide
+* Samhain
 * OSSEC
 * Sagan
 * Security Onion
-* AIDE
-* Samhain
 * Fail2Ban
 
-Network intrusion detection systems:
+## Network intrusion detection systems
 
 * Snort
 * Zeek

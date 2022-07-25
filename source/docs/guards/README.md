@@ -9,7 +9,7 @@ Two of the most popular and significant tools used to secure networks are firewa
 With a firewall, you can:
 
 * Log hosts scanning services that aren't running.
-* Limit the services that programs can connect to.
+* Limit the services that applications can connect to.
 * Segregate the local network into trust segments (Local Area Network (LAN), DeMilitarised Zone (DMZ), and Internet).
 * Redirect ports to the hosts providing the service (Network address translation (NAT)).
 
@@ -18,23 +18,23 @@ that are most likely to cause issues for a beginning user.
 
 * Linux firewall code includes the netfilter architecture, which was introduced in stable kernel 2.4. For configuring netfilter through its own command line interface ([iptables](netfilter-and-iptables.md)), one has to specify the behaviour of all IP packets that make up a connection both inward and outward. It requires extensive knowledge of TCP/IP protocols, but many tools have been developed to automate the configuration of netfilter and iptables. So [you have lots of choice](https://wiki.debian.org/Firewalls). 
 * [nftables](nftables.md) is the successor of iptables, and allows for much more flexible, scalable and performance packet classification.
-* Recommended for beginners is [ufw and gufw](gufw-and-ufw.md) because of its simplicity and ease of use. Gufw (GNU GPL v3) is for users bamboozled by firewalls. It has an easy to use interface for setting up inbound and outbound traffic rules for apps/services and ports. It is designed for beginners. Gufw is a GUI front-end to `ufw`, which is in itself a front-end to `netfilter` and `iptables`.
+* Recommended for beginners is [ufw and gufw](gufw-and-ufw.md) because of its simplicity and ease of use. Gufw (GNU GPL v3) is for users bamboozled by firewalls. It has an easy-to-use interface for setting up inbound and outbound traffic rules for apps/services and ports. It is designed for beginners. Gufw is a GUI front-end to `ufw`, which is in itself a front-end to `netfilter` and `iptables`.
 
 ## Choosing a HIDS for a Linux PC
 
-Most of the [HIDS tools for Linux](ids.md) are File Integrity Agents (FIAs) and use Error Detection algorithms. A FIA monitors 
-the integrity and state of the files and objects on a machine. It creates a hash of all files to be monitored. 
+Most of the [HIDS tools for Linux](ids.md) are File Integrity Agents (FIAs) and use Error Detection algorithms. A FIA 
+monitors the integrity and state of the files and objects on a machine. It creates a hash of all files to be monitored. 
 That snapshot is periodically checked against the current hash of the files. If it detects changes to those files, then 
 it alerts the administrator that an unauthorised access or change has taken place. 
 
-One of the key differences between [Tripwire](https://www.tripwire.com) and [Aide](aide.md) is their commercial status. Aide is entirely open source and 
-licensed via the GPL and much, much easier in its configuration. Tripwire offers extended features that can make it 
-more secure than Aide on servers, but storing aide databases on an encrypted filesystem on another machine (or an 
-external drive) can be considered good enough to not need tripwire's extended feature(s) for a PC (Not that you can not 
-sign the databases AND put them on another machine or external drive). For a PC, Aide will do.
+* [Aide](aide.md) is such a FIA, entirely open source and licensed via the GPL and easy in its configuration. For a Home PC, Aide will 
+do.
+* [OSSEC](ossec.md) monitors the checksum signatures of all the log files to detect possible interference and any 
+attempts to get to the root account.
 
 ## Related attack trees
 
-* [Malware](attack-trees:docs/malware/README)
 * [Scanning](attack-trees:docs/scanning/README)
+* [Malware](attack-trees:docs/malware/README)
+* [System](attack-trees:docs/system/README)
 * [Network](attack-trees:docs/network/README)

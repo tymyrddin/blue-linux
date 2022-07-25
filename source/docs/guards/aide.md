@@ -1,6 +1,6 @@
 # Aide
 
-The [Advanced Intrusion Detection Environment (Aide)](https://aide.github.io/), is a file integrity checker (FIA). It creates a database from the regular expression rules that it finds from the config file(s). Once this database is initialized it can be used to verify the integrity of the files. It has several message digest algorithms (md5, sha1, rmd160, tiger, crc32, sha256, sha512, whirlpool (additionally with libmhash: gost, haval, crc32b)) that are used to check the integrity of the file. All of the usual file attributes (//File type, Permissions, Inode, Uid, Gid, Link name, Size, Block count, Number of links, Mtime, Ctime// and //Atime//) can also be checked for inconsistencies. It can read databases from older or newer versions.
+The [Advanced Intrusion Detection Environment (Aide)](https://aide.github.io/), is a file integrity checker (FIA). It creates a database from the regular expression rules that it finds from the config file(s). Once this database is initialized it can be used to verify the integrity of the files. It has several message digest algorithms (md5, sha1, rmd160, tiger, crc32, sha256, sha512, whirlpool (additionally with libmhash: gost, haval, crc32b)) that are used to check the integrity of the file. All usual file attributes (//File type, Permissions, Inode, Uid, Gid, Link name, Size, Block count, Number of links, Mtime, Ctime// and //Atime//) can also be checked for inconsistencies. It can read databases from older or newer versions.
 
 ## Installation
 
@@ -52,7 +52,7 @@ On other distros:
 
 ## Configuration
 
-Most of aide configuration can be found in `/etc/aide/aide.conf`. This file is pretty well documented and default rules are quite decent. Aide aims at reporting files that changed since the last snapshot (stored in `/var/lib/aide/aide.db`). In hostile environments, a good security measure is to keep the database file on an external disk. If you have such a device, you can copy the current snapshot to it and use the snapshot from that device during later runs of aide.
+Most aide configuration can be found in `/etc/aide/aide.conf`. This file is pretty well documented and default rules are quite decent. Aide aims at reporting files that changed since the last snapshot (stored in `/var/lib/aide/aide.db`). In hostile environments, a good security measure is to keep the database file on an external disk. If you have such a device, you can copy the current snapshot to it and use the snapshot from that device during later runs of aide.
 
 Before making modifications to the configuration file, make a backup first:
 
@@ -64,11 +64,11 @@ So let say that you have a copy of `aide.db` on an external disk. To use that sn
 
 ![Aide conf](../../_static/images/aide22.png)
 
-Read through the file to acquaint yourself with aide. By default, changes in //Binaries// and //Libraries// directories are checked. Those are matched to the //BinLib// rule, which basically checks for any changes in permissions, ownership, modification, access and creation date, size change, md5 and sha1 signature, inode, number of links and block count. Then, it also checks for modifications in the //log files// against the rule //Logs//. Because log files tend to grow, you cannot use a signature there and you also have to ask aide not to check for size modification (S).
+Read through the file to acquaint yourself with aide. By default, changes in //Binaries// and //Libraries// directories are checked. Those are matched to the //BinLib// rule, which basically checks for any changes in permissions, ownership, modification, access and creation date, size change, md5 and sha1 signature, inode, number of links and block count. Then, it also checks for modifications in the //log files// against the rule //Logs//. Because log files tend to grow, you cannot use a signature there, and you also have to ask aide not to check for size modification (S).
 
 ## Usage
 
-On debian alikes, aide is run on a daily basis through the script `/etc/cron.daily/aide`. Default settings in `/etc/default/aide` tells aide to update it's database. Using `database_out` value in `/etc/aide/aide.conf`, aide is going to output a new database any time it runs in `/var/lib/aide/aide.db.new` (if you kept the default settings).
+On debian and friends, aide is run on a daily basis through the script `/etc/cron.daily/aide`. Default settings in `/etc/default/aide` tells aide to update its database. Using `database_out` value in `/etc/aide/aide.conf`, aide is going to output a new database any time it runs in `/var/lib/aide/aide.db.new` (if you kept the default settings).
 
 Any time you install new packages or change some configuration settings, run:
 
