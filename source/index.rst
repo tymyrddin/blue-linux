@@ -25,6 +25,7 @@ Linux PC mitigations
    docs/malware/clean-machine.md
    docs/malware/analysing-trojans.md
    docs/malware/browsers.md
+   docs/malware/*
 
 .. toctree::
    :glob:
