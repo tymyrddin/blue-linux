@@ -5,73 +5,11 @@ Linux PC mitigations
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Audit system
+   :caption: Security configurations
 
-   docs/audit/README.md
-   docs/audit/*
+   docs/configs/README.md
+   docs/configs/*
 
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: Local root email
-
-   docs/mail/README.md
-   docs/mail/*
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: Intrusion Detection System (IDS)
-
-   docs/ids/README.md
-   docs/ids/*
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: Restrict services
-
-   docs/services/README.md
-   docs/services/*
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: Firewalls
-
-   docs/firewalls/README.md
-   docs/firewalls/*
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: Devices
-
-   docs/devices/README.md
-   docs/devices/*
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: Modifying kernel parameters
-
-   docs/kernel/README.md
-   docs/kernel/*
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: Rootkit scanner
-
-   docs/scanners/README.md
-   docs/scanners/*
 
 .. toctree::
    :glob:
@@ -80,7 +18,23 @@ Linux PC mitigations
    :caption: Malware
 
    docs/malware/README.md
-   docs/malware/*
+   docs/malware/attack-vectors.md
+   docs/malware/clean-machine.md
+   docs/malware/analysing-trojans.md
+   docs/malware/browsers.md
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Guards! Guards!
+
+   docs/guards/README.md
+   docs/guards/soup.md
+   docs/guards/netfilter-and-iptables.md
+   docs/guards/nftables.md
+   docs/guards/gufw-and-ufw.md
+   docs/guards/*
 
 .. toctree::
    :caption: Links
