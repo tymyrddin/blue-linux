@@ -8,8 +8,11 @@ Linux PC mitigations
    :caption: Security configurations
 
    docs/configs/README.md
-   docs/configs/*
-
+   docs/configs/camera-webcam.md
+   docs/configs/microphone.md
+   docs/configs/firewire-and-thunderbolt.md
+   docs/configs/restrict-access-to-cron.md
+   docs/configs/startup-applications.md
 
 .. toctree::
    :glob:
