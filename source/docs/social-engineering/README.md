@@ -1,4 +1,4 @@
-# Malware attack vectors
+# Introduction
 
 ## Phishing & email 
 
@@ -18,8 +18,13 @@ Keyloggers and other malware can be installed via a web page script which exploi
 
 A noted approach is to put malware up on sites labelled as something people want, such as “My caek loves YOU! 2 DVDRip.avi”. When downloading, it’s an avi, but it’s also bound with malware. And the caek isn’t real to begin with. For windows binding malware to an avi file isn’t even necessary because windows extensions are hidden by default, so they can just name it ''file.avi'' when in reality it’s ''file.avi.exe''. The caek is still not real and happiness is not just around the corner.
  
-Download and torrent only from trusted sources. 
+Download and torrent only from trusted sources and [check the integrity of downloads](data-mitigations:docs/filetransfer/Checking-integrity-of-downloads). 
 
-## Installation of applications and updates
 
-Can happen of course. [Check the integrity of downloads](data-mitigations:docs/filetransfer/Checking-integrity-of-downloads). 
+## Fail
+
+Can happen of course. [Clean machine](../malware/README.md).
+
+## Related attack trees
+
+* [Social engineering](attack-trees:docs/social-engineering/README)
