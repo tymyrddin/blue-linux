@@ -3,10 +3,15 @@
 For example, do you really need Samba for sharing files over the network, or the Bluetooth service to connect to 
 Bluetooth devices on a computer that doesn't have a Bluetooth adapter? 
 
-* Go to /System -> Preferences -> Startup Applications (Debian and its derivatives)
+## Gnome
+
+* Go to Show applications -> Startup Applications
 * Remove check marks next to the services you wish to disable at startup. 
 
-Be careful turning off services. Some other applications might stop functioning because they depend on a disabled 
-service. Try one by one.
+## Mate
+
+In MATE, you can configure your startup applications in the main control centre, using the "Startup Applications" applet.
+
+
 
 

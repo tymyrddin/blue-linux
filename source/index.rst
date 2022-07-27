@@ -13,10 +13,13 @@ Linux PC mitigations
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Services
+   :caption: Services and applications
 
    docs/services/README.md
-   docs/services/*
+   docs/services/apparmor.md
+   docs/services/restrict-access.md
+   docs/services/startup-applications.md
+   docs/services/service-management.md
 
 .. toctree::
    :glob:

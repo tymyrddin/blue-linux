@@ -1,20 +1,23 @@
 # Turning devices on and off
 
-Depending on your location and context, you may want to turn devices, such as webcam and microphone off and on. Some 
-devices can be turned on and off by software, others need blacklisting. Kernel modules are pieces of code that can be 
-loaded and unloaded into the kernel upon demand. They extend the functionality of the kernel without the need to reboot 
-the system. And modules can be blacklisted. 
+Adversaries can try to gain access with trojans - invisibly-installed malware that gives the adversary administrative 
+control over targeted computers, including, the ability to remotely control devices. Depending on your location and 
+context, you may want to turn devices off and later on again.
+
+Some devices can be turned on and off by software, others need blacklisting. Kernel modules are pieces of code that can 
+be loaded and unloaded into the kernel upon demand. They extend the functionality of the kernel without the need to 
+reboot the system. And modules can be blacklisted. 
 
 ## Examples
 
 ### Turn on/off camera/webcam 
 
-Adversaries can try to gain access with trojans – malware that gives the adversary administrative control over its 
-targeted computers, including, in this case, the ability to remotely control webcams. A trojan is an invisibly-installed 
-malware program spread via email attachment or by [phishing](attack-trees:docs/social-engineering/Phishing).
+Tape the camera. It may even be possible to turn it off in BIOS (depending on your version). 
 
-Tape the camera. It may even be possible to turn it off in BIOS (depending on your version). Better yet, if you know 
-what driver module is controlling the webcam, you can disable the driver with `modprobe -r`.
+Better yet, if you know what driver module is controlling the webcam, you can disable and enable the driver with 
+a single command on the commandline.
+
+#### uvc driver
 
 Check with:
     
@@ -37,12 +40,15 @@ To enable the cam:
 
     $ sudo modprobe uvcvideo
 
+#### other driver
 If not an uvcvideo driver, try `$ sudo lsmod | grep "media"` and use the `modinfo` command to find out more about the 
 modules listed behind it to locate your webcam driver module:
 
     $ sudo modinfo [modulename] 
 
 Then replace the `uvcvideo` in the above `modprobe` command with the name of your driver module.
+
+#### Completely turn it off
 
 To disable the webcam at boot (if file not exists, create it, use your preferred editor):
 
