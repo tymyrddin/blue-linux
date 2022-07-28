@@ -1,4 +1,4 @@
-name: Publish Linux PC mitigations using Sphinx
+name: Publish GNU/Linux mitigations using Sphinx
 
 on:
   push:

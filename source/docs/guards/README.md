@@ -4,7 +4,7 @@ There are many types of devices and mechanisms within the security environment t
 This is so that if an attacker is able to bypass one layer, another layer stands in the way to protect the network. 
 Two of the most popular and significant tools used to secure networks are firewalls and intrusion detection systems. 
 
-## Choosing a firewall for a Linux PC
+## Choosing a firewall for a GNU/Linux
 
 With a firewall, you can:
 
@@ -20,7 +20,7 @@ that are most likely to cause issues for a beginning user.
 * [nftables](nftables.md) is the successor of iptables, and allows for much more flexible, scalable and performance packet classification.
 * Recommended for beginners is [ufw and gufw](gufw-and-ufw.md) because of its simplicity and ease of use. Gufw (GNU GPL v3) is for users bamboozled by firewalls. It has an easy-to-use interface for setting up inbound and outbound traffic rules for apps/services and ports. It is designed for beginners. Gufw is a GUI front-end to `ufw`, which is in itself a front-end to `netfilter` and `iptables`.
 
-## Choosing a HIDS for a Linux PC
+## Choosing a HIDS for a GNU/Linux
 
 Most of the [HIDS tools for Linux](ids.md) are File Integrity Agents (FIAs) and use Error Detection algorithms. A FIA 
 monitors the integrity and state of the files and objects on a machine. It creates a hash of all files to be monitored. 

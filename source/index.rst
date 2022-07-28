@@ -1,13 +1,17 @@
-Linux PC mitigations
+GNU/Linux mitigations
 ================================================
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Authentication
+   :caption: Accounts and authentication
 
    docs/authentication/README.md
+   docs/authentication/sudo-killers.md
+   docs/authentication/resuming.md
+   docs/authentication/passwords.md
+   docs/authentication/password-manager.md
 
 .. toctree::
    :glob:

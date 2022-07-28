@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Linux PC mitigations'
+project = 'GNU/Linux mitigations'
 copyright = '2022, TyMyrddin'
 author = 'TyMyrddin'
 
@@ -66,7 +66,7 @@ html_theme_options = {
     'titles_only': True
 }
 
-html_title = "Linux PC mitigations"
+html_title = "GNU/Linux mitigations"
 html_logo = "img/logo.png"
 html_favicon = "img/favicon.ico"
 
