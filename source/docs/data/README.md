@@ -1,9 +1,9 @@
 # Introduction
 
-* Enable full disk encryption
-* Make a vault
-* Password protect files and folders
-* Back up data
+* [Make backups with rsync](backups.md)
+* [Use removable storage media](removable-media.md)
+* [Full disk encryption with cryptsetup](disk-encryption.md)
+* [File encryption](file-encryption.md)
 
 ## Related attack trees
 

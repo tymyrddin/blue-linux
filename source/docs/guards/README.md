@@ -29,6 +29,7 @@ it alerts the administrator that an unauthorised access or change has taken plac
 
 * [Aide](aide.md) is such a FIA, entirely open source and licensed via the GPL and easy in its configuration. For a Home PC, Aide will 
 do.
+* [Tripwire](tripwire.md)
 * [OSSEC](ossec.md) monitors the checksum signatures of all the log files to detect possible interference and any 
 attempts to get to the root account.
 

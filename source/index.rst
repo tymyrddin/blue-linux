@@ -1,6 +1,12 @@
 GNU/Linux mitigations
 ================================================
 
+"Linux" is really GNU software operating with a Linux kernel, and GNU software there are many resulting in an
+`incredible amount of distributions <https://distrowatch.com/>`_, all called "Linux". Some even build on each other, such as Debian -> Ubuntu.
+It is impossible to cover them all. These mitigations are kept as simple as possible, with tools found in most
+distros. Some things are harder to cover. For example, each distro has its own privacy settings somewhere, and
+there are even distro's that have specialised in privacy.
+
 .. toctree::
    :glob:
    :maxdepth: 1
@@ -8,10 +14,11 @@ GNU/Linux mitigations
    :caption: Accounts and authentication
 
    docs/authentication/README.md
-   docs/authentication/sudo-killers.md
-   docs/authentication/resuming.md
+   docs/authentication/accounts.md
    docs/authentication/passwords.md
    docs/authentication/password-manager.md
+   docs/authentication/resuming.md
+   docs/authentication/sudo-killers.md
 
 .. toctree::
    :glob:
@@ -20,10 +27,10 @@ GNU/Linux mitigations
    :caption: Services and applications
 
    docs/services/README.md
+   docs/services/service-management.md
    docs/services/apparmor.md
    docs/services/restrict-access.md
    docs/services/startup-applications.md
-   docs/services/service-management.md
 
 .. toctree::
    :glob:
@@ -32,6 +39,10 @@ GNU/Linux mitigations
    :caption: Data
 
    docs/data/README.md
+   docs/data/removable-media.md
+   docs/data/backups.md
+   docs/data/disk-encryption.md
+   docs/data/file-encryption.md
 
 .. toctree::
    :glob:

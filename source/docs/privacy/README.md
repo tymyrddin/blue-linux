@@ -1,8 +1,7 @@
 # Introduction
 
-* Check Location services is turned off.
-* Check Guest User Account is disabled.
 * [Turning devices on and off](devices.md)
+* [Distros specialised in privacy](privacy-distros.md)
 
 ## Related attack trees
 

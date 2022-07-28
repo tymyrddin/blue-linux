@@ -1,4 +1,4 @@
-# AppArmor
+# Application armour (AppArmor)
 
 Application Armor (AppArmor) is a kernel-level Mandatory Access Control (MAC) feature that restricts applications from accessing 
 classes of computer resources. For example, AppArmor can allow a word processor to read and write files to the local 

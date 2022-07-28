@@ -1,4 +1,4 @@
-# Disabling startup applications
+# Disable startup applications
 
 For example, do you really need Samba for sharing files over the network, or the Bluetooth service to connect to 
 Bluetooth devices on a computer that doesn't have a Bluetooth adapter? 
