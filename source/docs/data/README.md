@@ -1,9 +1,11 @@
 # Introduction
 
-* [Make backups with rsync](backups.md)
 * [Use removable storage media](removable-media.md)
+* [Archiving and compressing](archive-compress.md)
+* [Make backups with rsync](backups.md)
 * [Full disk encryption with cryptsetup](disk-encryption.md)
 * [File encryption](file-encryption.md)
+* [Shredding files and deleting data](shred-and-delete.md)
 
 ## Related attack trees
 

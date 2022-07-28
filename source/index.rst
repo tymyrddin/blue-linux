@@ -40,9 +40,11 @@ there are even distro's that have specialised in privacy.
 
    docs/data/README.md
    docs/data/removable-media.md
+   docs/data/archive-compress.md
    docs/data/backups.md
    docs/data/disk-encryption.md
    docs/data/file-encryption.md
+   docs/data/shred-and-delete.md
 
 .. toctree::
    :glob:
