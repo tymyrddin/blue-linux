@@ -18,6 +18,7 @@ there are even distro's that have specialised in privacy.
    docs/authentication/passwords.md
    docs/authentication/password-manager.md
    docs/authentication/resuming.md
+   docs/authentication/mfa.md
    docs/authentication/sudo-killers.md
 
 .. toctree::

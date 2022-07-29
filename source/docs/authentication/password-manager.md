@@ -1,4 +1,4 @@
-# Password manager
+# Use a password manager
 
 The majority of people use very weak passwords and reuse them on different websites. How are you supposed to use strong, 
 unique passwords on all the websites you use? The solution is a password manager.

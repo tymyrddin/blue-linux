@@ -1,4 +1,4 @@
-# Passwords
+# Make that secure passwords
 
 * Do not use a password you have used in the past.
 * Try to change the password at least every 3-6 months.
