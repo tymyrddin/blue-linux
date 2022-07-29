@@ -2,7 +2,7 @@
 
 * [Use removable storage media](removable-media.md)
 * [Archiving and compressing](archive-compress.md)
-* [Make backups with rsync](backups.md)
+* [Shift back and forth in time from past to present](timeshift.md)
 * [Full disk encryption with cryptsetup](disk-encryption.md)
 * [File encryption](file-encryption.md)
 * [Shredding files and deleting data](shred-and-delete.md)
