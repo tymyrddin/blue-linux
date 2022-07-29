@@ -17,5 +17,12 @@ files can be copied between hosts; the file will be decrypted with the proper ke
 eCryptfs kernel module is available in all Linux kernels since 2006. The eCryptfs user space utilities 
 (`ecryptfs-utils`) are available in all major Linux distributions.
 
+## VeraCrypt
+
+[VeraCrypt](https://www.veracrypt.fr/en/Home.html) is a fork of the discontinued TrueCrypt project. It is a free and 
+open-source utility for on-the-fly encryption (OTFE). The software can create a virtual encrypted disk that works just 
+like a regular disk but within a file. It can also encrypt a partition or (in Windows) the entire storage device with 
+pre-boot authentication.
+
 
 
