@@ -37,6 +37,7 @@ specialised in privacy.
    docs/services/vpn.md
    docs/services/browsers.md
    docs/services/messaging.md
+   docs/services/email-services.md
 
 .. toctree::
    :glob:
@@ -59,7 +60,9 @@ specialised in privacy.
    :caption: Privacy
 
    docs/privacy/README.md
-   docs/privacy/*
+   docs/privacy/devices.md
+   docs/privacy/email-use.md
+   docs/privacy/privacy-distros.md
 
 .. toctree::
    :glob:
@@ -78,7 +81,7 @@ specialised in privacy.
    :caption: Social engineering
 
    docs/social-engineering/README.md
-   docs/social-engineering/browsers.md
+   docs/social-engineering/browsing.md
    docs/social-engineering/check-mail.md
 
 .. toctree::
