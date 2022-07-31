@@ -3,9 +3,11 @@ GNU/Linux mitigations
 
 "Linux" is really GNU software operating with a Linux kernel, and GNU software there are many resulting in an
 `incredible amount of distributions <https://distrowatch.com/>`_, all called "Linux". Some even build on each other, such as Debian -> Ubuntu.
-It is impossible to cover them all. These mitigations are kept as simple as possible, with tools found in most
-distros. Some things are harder to cover. For example, each distro has its own privacy settings somewhere, and
-there are even distro's that have specialised in privacy.
+It is impossible to cover them all.
+
+Version 0.1: These mitigations are kept as simple as possible, with tools found in most distros. Some things are harder
+to cover. For example, each distro has its own privacy settings somewhere, and there are even distro's that have
+specialised in privacy.
 
 .. toctree::
    :glob:
@@ -32,6 +34,7 @@ there are even distro's that have specialised in privacy.
    docs/services/apparmor.md
    docs/services/restrict-access.md
    docs/services/startup-applications.md
+   docs/services/vpn.md
    docs/services/browsers.md
    docs/services/messaging.md
 

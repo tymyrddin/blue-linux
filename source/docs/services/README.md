@@ -7,9 +7,9 @@ customisation feature to enhance security.
 * [Application armour (AppArmor)](apparmor.md)
 * [Restrict access to at and cron](restrict-access.md)
 * [Disble applications via startup applications](startup-applications.md)
+* [Use a VPN service](vpn.md)
 * [Secure browsers that protect your privacy](browsers.md)
 * [Use a secure messaging service](messaging.md)
-
 
 ## Related attack trees
 
