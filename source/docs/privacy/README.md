@@ -11,3 +11,4 @@
 ## Related threat model
 
 * [Deanonymisation](https://tymyrddin.github.io/da-threat-model/)
+* [Reconnaissance](attack-trees:docs/reconnaissance/README)

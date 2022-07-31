@@ -32,6 +32,8 @@ there are even distro's that have specialised in privacy.
    docs/services/apparmor.md
    docs/services/restrict-access.md
    docs/services/startup-applications.md
+   docs/services/browsers.md
+   docs/services/messaging.md
 
 .. toctree::
    :glob:
