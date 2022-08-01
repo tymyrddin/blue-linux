@@ -10,7 +10,7 @@ customisation feature to enhance security.
 * [Secure browsers that protect your privacy](browsers.md)
 * [Use a secure messaging service](messaging.md)
 * [Use a secure email service](email-services.md)
-* [Use SSH to access a server](ssh.md)
+* [Use SSH tunnels](ssh.md)
 * [Use a VPN service](vpn.md)
 * [Use alternative DNS servers](dns-servers.md)
 * [Use a Tor proxy](tor-proxy.md)
