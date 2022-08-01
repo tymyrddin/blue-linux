@@ -1,4 +1,4 @@
-# Protect SSH with MFA
+# Protect SSH access with MFA
 
 You can protect [SSH access](../services/ssh.md) with MFA:
 

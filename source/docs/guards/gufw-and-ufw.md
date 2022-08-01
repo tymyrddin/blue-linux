@@ -2,7 +2,7 @@
 
 ## Installation
 
-Linux distributions come with a firewall installed (IPtables are built into the Linux kernel), but it is disabled because it would block some basic functionality for users on the local network. Specifically, it would block Samba and Avahi (zeroconf); limiting interoperability with other computers (like file and printer sharing) and disabling automatic discovery of network services. . It is better to turn it on. Especially on mobile devices like laptops, which sometimes connect to other networks than your own. it'll be in your menu items (the icon in mint is a brick wall).
+Linux distributions come with a firewall installed (IPtables are built into the Linux kernel), but it is disabled because it would block some basic functionality for users on the local network. Specifically, it would block Samba and Avahi (zeroconf); limiting interoperability with other computers (like file and printer sharing) and disabling automatic discovery of network services. It is better to turn it on. Especially on mobile devices like laptops, which sometimes connect to other networks than your own. it'll be in your menu items (the icon in mint is a brick wall).
 
 You can install `ufw` (command-line) or `gufw`, a GUI frontend to `ufw`, and that will also install `ufw`:
 

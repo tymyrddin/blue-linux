@@ -8,7 +8,7 @@ downloads become more advanced and diverse).
 
 BeEF & other browser exploits, when not using browser vulnerabilities, rely on javascript.
 
-* [Choose a secure browsers that protect your privacy](../services/browsers.md)
+* [Choose a secure browser that protects your privacy](../services/browsers.md)
 
 
 
