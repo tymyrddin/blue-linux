@@ -21,6 +21,7 @@ specialised in privacy.
    docs/authentication/password-manager.md
    docs/authentication/resuming.md
    docs/authentication/mfa.md
+   docs/authentication/ssh-mfa.md
    docs/authentication/sudo-killers.md
 
 .. toctree::
@@ -34,10 +35,15 @@ specialised in privacy.
    docs/services/apparmor.md
    docs/services/restrict-access.md
    docs/services/startup-applications.md
-   docs/services/vpn.md
    docs/services/browsers.md
    docs/services/messaging.md
    docs/services/email-services.md
+   docs/services/vpn.md
+   docs/services/vpn-fail-open.md
+   docs/services/dns-servers.md
+   docs/services/ssh.md
+   docs/services/tor-proxy.md
+   docs/services/ssh-tor.md
 
 .. toctree::
    :glob:
@@ -61,7 +67,6 @@ specialised in privacy.
 
    docs/privacy/README.md
    docs/privacy/devices.md
-   docs/privacy/email-use.md
    docs/privacy/privacy-distros.md
 
 .. toctree::
@@ -78,11 +83,13 @@ specialised in privacy.
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Social engineering
+   :caption: Operations security
 
-   docs/social-engineering/README.md
-   docs/social-engineering/browsing.md
-   docs/social-engineering/check-mail.md
+   docs/opsec/README.md
+   docs/opsec/email-use.md
+   docs/opsec/check-mail.md
+   docs/opsec/browsing.md
+   docs/opsec/integrity-downloads.md
 
 .. toctree::
    :glob:

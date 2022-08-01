@@ -1,8 +1,9 @@
 # Introduction
 
-* [Use email securely](../privacy/email-use.md)
+* [Use email securely](email-use.md)
 * [Detecting fake emails and phishing](check-mail.md)
 * [Browse more safely](browsing.md)
+* [Check integrity of downloads](integrity-downloads.md)
 
 ## Fail
 
