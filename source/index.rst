@@ -67,6 +67,11 @@ specialised in privacy.
 
    docs/privacy/README.md
    docs/privacy/devices.md
+   docs/privacy/metadata.md
+   docs/privacy/metadata-images.md
+   docs/privacy/hexeditors.md
+   docs/privacy/bleachbit.md
+   docs/privacy/mat2.md
    docs/privacy/privacy-distros.md
 
 .. toctree::
