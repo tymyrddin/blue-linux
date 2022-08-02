@@ -38,10 +38,10 @@ specialised in privacy.
    docs/services/browsers.md
    docs/services/messaging.md
    docs/services/email-services.md
+   docs/services/ssh.md
    docs/services/vpn.md
    docs/services/vpn-fail-open.md
    docs/services/dns-servers.md
-   docs/services/ssh.md
    docs/services/tor-proxy.md
    docs/services/ssh-tor.md
 
@@ -90,6 +90,7 @@ specialised in privacy.
    docs/opsec/check-mail.md
    docs/opsec/browsing.md
    docs/opsec/integrity-downloads.md
+   docs/opsec/*
 
 .. toctree::
    :glob:
