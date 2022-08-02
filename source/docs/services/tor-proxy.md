@@ -22,6 +22,7 @@ Run the same command but preface it with torsocks. The command is now run throug
     $ torsocks curl ifconfig.me; echo
     [Some Tor IP address]
 
+## Shell
 To use the Tor network by default for shell commands, torify your shell with this command:
 
     $ source torsocks on
@@ -31,6 +32,29 @@ Test with (must now be []):
 
     $ curl ifconfig.me; echo
     [Some Tor IP address]
+
+## Enable Tor control port
+
+Password protect the Tor connection:
+
+    $ torpass=$(tor --hash-password "[password]")
+
+Enable the Tor control port and insert the hashed password:
+
+    $ printf "HashedControlPassword $torpass\nControlPort 9051\n" | sudo tee -a /etc/tor/torrc
+
+Check the contents of the `/etc/tor/torrc` configuration file.
+
+    $ sudo systemctl restart tor
+
+Now tor is running on both ports 9050 and 9051.
+
+## Use in app, for example Firefox
+
+* Go to Preferences -> Network Settings -> Settings button
+* Select "Manual proxy configuration" and enter `localhost` in the "SOCKS Host" field. Use `9050` for port.
+* OK
+* Test by going to a IP site
 
 ## Notes
 

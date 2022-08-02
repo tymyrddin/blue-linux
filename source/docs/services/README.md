@@ -16,6 +16,9 @@ customisation feature to enhance security.
 * [Use alternative DNS servers](dns-servers.md)
 * [Use a Tor proxy](tor-proxy.md)
 * [Anonymise SSH sessions with Tor](ssh-tor.md)
+* [Change MAC address](change-mac.md)
+* [Renew IP lease](renew-lease.md)
+* [Edit hosts file](edit-hosts-file.md)
 
 ## Related attack trees
 

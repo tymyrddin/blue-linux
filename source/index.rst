@@ -44,6 +44,9 @@ specialised in privacy.
    docs/services/dns-servers.md
    docs/services/tor-proxy.md
    docs/services/ssh-tor.md
+   docs/services/change-mac.md
+   docs/services/renew-lease.md
+   docs/services/edit-hosts-file.md
 
 .. toctree::
    :glob:
