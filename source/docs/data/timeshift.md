@@ -102,7 +102,7 @@ Timeshift can be launched from the desktop environment application menu, or from
   using the native snapshot feature of the btrsf filesystem. They cannot be saved on external disks or devices. If the 
   main disk fails, so does the snapshot.
   * Rsync-based snapshots are based on the use of hard links, implementing an incremental strategy. The first backup is a 
-  full backup; subsequent backups, ill include only changed files. Snapshots created by rsync can be copied on external 
+  full backup; subsequent backups will include only changed files. Snapshots created by rsync can be copied on external 
   devices formatted with a Linux filesystem. 
 * Choose weekly, daily, hourly, on boot, and how many snapshots should be kept. Snapshots can also be created on demand.
 * Choose whether and which users home directories should be included in the snapshots and what kind of files should be 

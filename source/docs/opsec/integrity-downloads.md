@@ -9,7 +9,8 @@ numerical value is the same. If not, the receiver can assume that the message ha
 
 ## Verifying downloaded software
 
-When downloading software, `.iso`s and `.deb`s and the like, download the `xxxsum` (choose from what is available) as well as the software and check. 
+When downloading software (`.iso`s and `.deb`s and the like), also download the `xxxsum` (choose from what is available) 
+and check the integrity (it is the intended file, and nothing has changed underway). 
 
 For example do:
 
