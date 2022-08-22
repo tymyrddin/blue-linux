@@ -84,7 +84,7 @@ The modules will be blacklisted upon reboot.
 * [Social engineering](attack-trees:docs/social-engineering/README)
 * [Malware](attack-trees:docs/malware/README)
 * [System](attack-trees:docs/system/README)
-* [Network](attack-trees:docs/network/README)
+* [Network](https://tymyrddin.github.io/red-network/)
 
 ## Cheatsheets
 

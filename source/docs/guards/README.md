@@ -38,4 +38,4 @@ attempts to get to the root account.
 * [Scanning](attack-trees:docs/scanning/README)
 * [Malware](attack-trees:docs/malware/README)
 * [System](attack-trees:docs/system/README)
-* [Network](attack-trees:docs/network/README)
+* [Network](https://tymyrddin.github.io/red-network/)
