@@ -7,7 +7,3 @@
 * [File encryption](file-encryption.md)
 * [Shredding files and deleting data](shred-and-delete.md)
 
-## Related attack trees
-
-* [Malware](attack-trees:docs/malware/README)
-* [System](attack-trees:docs/system/README)

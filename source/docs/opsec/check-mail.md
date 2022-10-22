@@ -15,7 +15,7 @@
 ## Phishing
 
 * Be wary of emails asking for confidential information.
-* Don't get pressured into providing sensitive information. Phishers like to use [all kinds of social engineering](attack-trees:docs/social-engineering/README). Learn what you can about it.
+* Don't get pressured into providing sensitive information. Phishers like to use all kinds of social engineering. Learn what you can about it.
 * Check a website's privacy policy, especially whether it will or will not sell its mailing list. If so, do not register.
 * Watch out for generic-looking requests for information.
 * Never submit confidential information via forms embedded within email messages.

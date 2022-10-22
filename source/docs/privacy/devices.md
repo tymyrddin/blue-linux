@@ -79,15 +79,3 @@ in `/etc/modprobe.d/blacklist-dma.conf` (in debian):
 
 The modules will be blacklisted upon reboot.
 
-## Related attack trees
-
-* [Social engineering](attack-trees:docs/social-engineering/README)
-* [Malware](attack-trees:docs/malware/README)
-* [System](attack-trees:docs/system/README)
-* [Network](https://tymyrddin.github.io/red-network/)
-
-## Cheatsheets
-
-* [Basic kernel modules commands](cheatsheets:docs/linux/kernel-modules)
-
-

@@ -20,8 +20,3 @@ customisation feature to enhance security.
 * [Renew IP lease](renew-lease.md)
 * [Edit hosts file](edit-hosts-file.md)
 
-## Related attack trees
-
-* [System](attack-trees:docs/system/README)
-* [Malware](attack-trees:docs/malware/README)
-* [E2EE threat model](https://tymyrddin.github.io/e2ee-threat-model/)

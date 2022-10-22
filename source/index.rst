@@ -1,4 +1,4 @@
-GNU/Linux mitigations
+Hardening GNU/Linux
 ================================================
 
 "Linux" is really GNU software operating with a Linux kernel, and GNU software there are many resulting in an
@@ -117,4 +117,4 @@ specialised in privacy.
 .. toctree::
    :caption: Links
 
-   All mitigations <https://tymyrddin.github.io/mitigations/>
+   Blue Team <https://tymyrddin.github.io/blue/>
