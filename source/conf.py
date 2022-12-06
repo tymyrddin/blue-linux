@@ -93,5 +93,6 @@ intersphinx_mapping = {
     "blue": ("https://tymyrddin.github.io/blue/", None),
     "blue-dfir": ("https://tymyrddin.github.io/blue-dfir/", None),
     "blue-malware": ("https://tymyrddin.github.io/blue-malware/", None),
+    "blue-phish": ("https://tymyrddin.github.io/blue-phish/", None),
 }
 myst_url_schemes = ["http", "https", ]
