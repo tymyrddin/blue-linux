@@ -1,9 +1,5 @@
 # GNU/Linux mitigations
 
-![Publish GNU/Linux mitigations using Sphinx](https://github.com/tymyrddin/blue-linux/workflows/Publish%20GNU%20%Linux%20mitigations%20using%20Sphinx/badge.svg?branch=main)
-
-Deployed: https://tymyrddin.github.io/blue-linux/
-
 Built with [Sphinx](https://www.sphinx-doc.org) using a [theme](https://github.com/readthedocs/sphinx_rtd_theme) provided
 by [Read the Docs](https://readthedocs.org/).
 
