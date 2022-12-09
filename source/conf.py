@@ -90,9 +90,9 @@ html_show_copyright = False
 
 # Intersphinx
 intersphinx_mapping = {
-    "blue": ("https://blue.tymyrddin.dev/", None),
-    "blue-dfir": ("https://blue.tymyrddin.dev/projects/dfir/", None),
-    "blue-malware": ("https://blue.tymyrddin.dev/projects/malware/", None),
-    "blue-phish": ("https://blue.tymyrddin.dev/projects/phish/", None),
+    "blue": ("https://blue.tymyrddin.dev/en/latest/", None),
+    "blue-dfir": ("https://blue.tymyrddin.dev/projects/dfir/en/latest/", None),
+    "blue-malware": ("https://blue.tymyrddin.dev/projects/malware/en/latest/", None),
+    "blue-phish": ("https://blue.tymyrddin.dev/projects/phish/en/latest/", None),
 }
 myst_url_schemes = ["http", "https", ]
