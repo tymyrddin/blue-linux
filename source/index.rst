@@ -113,8 +113,3 @@ specialised in privacy.
    docs/guards/gufw-and-ufw.md
    docs/guards/ids.md
    docs/guards/*
-
-.. toctree::
-   :caption: Links
-
-   Blue Team <https://blue.tymyrddin.dev/>
