@@ -20,7 +20,3 @@
 * Watch out for generic-looking requests for information.
 * Never submit confidential information via forms embedded within email messages.
 * Never use links in an email to connect to a website unless you are absolutely sure they are authentic.
-
-## Related
-
-* [SOC: Phishing](blue-phish:index)
